@@ -1,0 +1,14 @@
+name: rise-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - notebook<7         # RISE works only with classic notebook (v6.x)
+  - ipywidgets
+  - rise
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tensorflow
